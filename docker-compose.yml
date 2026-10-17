@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: viktor-kim-devops
+    container_name: viktor-kim-container
+    environment:
+      STUDENT_NAME: Viktor
+      STUDENT_SURNAME: Kim
+      STUDENT_GROUP: IT2-2313
+      STUDENT_ID: "37145"
